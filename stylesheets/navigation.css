@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Cherry+Cream+Soda);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+body{
+	background-color: #1C1C1C;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+}
+.margins{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 3em;
+	margin-right: 3em;
+}
+.category{
+	font-family: 'Cherry Cream Soda', cursive;
+	color: white;
+	font-size: 2em;
+}
+.main{
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-size: 1.3em;
+}
+.side{
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+}
+.inline{
+	display: inline;
+}
+h1 {
+	font-family: 'Cherry Cream Soda', cursive;
+	color: white;
+	font-weight: bold;
+}
+
+#body{
+	position: absolute;
+	background-color: #2B2B2B;
+	text-align: center;
+	width: 60%;
+	height: 95%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+#body2{
+	position: absolute;
+	background-color: #2B2B2B;
+	text-align: center;
+	width: 60%;
+	height: 175%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+	font-family: 'Cherry Cream Soda', cursive;
+	border: 1px #2B2B2B;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #2b0202;
+}
+
+.active {
+    background-color: #990100;
+}
+#menubody{
+	background-color: #990100;
+	width: 90%;
+	padding:15px;
+	margin: auto;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+#dish{
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-size: 1.3em;
+	text-align: left;
+	margin-left: 5%;
+}
+#price{
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-size: 1.3em;
+	text-align: right;
+	margin-right: 5%;
+}
+/** -------------------------------------------------------------------------------------- **/
+
+/** -------------------------------------------------------------------------------------- **/
+
+#left{
+	margin-left: 20px;
+	width:45%;
+	height: 90%;
+	display: inline-block;
+}
+#right{
+	margin-right: 20px;
+	width:45%;
+	height: 90%;
+	display: inline-block;
+}
